@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ff583f062ffbf244985485bd800c07b, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  itemName: MasterSword
+  itemType: 3
+  itemArmorSubType: 0
+  itemAmount: 10
+  spawnChanceWeight: 5
+  itemMaterial: {fileID: 2100000, guid: 67641ca2769916042811a9e3f59b372d, type: 2}
+  itemIcon: {fileID: 21300000, guid: 7a6e3d79f26e1fa45b21760fbb936826, type: 3}
+  itemSpawnObject: {fileID: 54381755956771222, guid: 851d5e8d6952d13469c3c9ff2c723899,
+    type: 3}
+  weaponSlotObject: {fileID: 54489579891074848, guid: d254034d42cb8fd43964be17e93406f4,
+    type: 3}
+  isEquipped: 0
+  isInteractable: 0
+  isStorable: 1
+  isUnique: 1
+  isIndestructable: 1
+  isQuestItem: 0
+  isStackable: 0
+  destroyOnUse: 0
+  itemWeight: 5

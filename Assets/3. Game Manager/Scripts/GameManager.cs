@@ -73,7 +73,7 @@ public class GameManager : Singleton<GameManager>
 
     void HandleMainMenuFadeComplete(bool fadeOut)
     {
-        if (fadeOut)
+        if (!fadeOut)
         {
             UnloadLevel(_currentLevelName);
         }
